@@ -1,0 +1,5 @@
+-- Experiment 13: AUTO_INCREMENT
+CREATE TABLE Orders (
+    OrderID INT AUTO_INCREMENT PRIMARY KEY,
+    ProductName VARCHAR(50)
+);

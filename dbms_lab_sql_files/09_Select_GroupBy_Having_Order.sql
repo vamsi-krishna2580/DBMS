@@ -1,0 +1,6 @@
+-- Experiment 9: SELECT - GROUP BY, HAVING, ORDER BY
+SELECT DeptID, AVG(Salary) AS AvgSalary
+FROM Employee
+GROUP BY DeptID
+HAVING AVG(Salary) > 25000
+ORDER BY AvgSalary DESC;
